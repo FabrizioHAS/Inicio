@@ -1,0 +1,24 @@
+#programa de relogio
+
+horario = float (input ("Qual o horário atual? "))
+
+if horario >= 25:
+  print("A hora deve ser entre 00AM e 24PM")
+
+if horario < 0 or horario > 24:
+  print("Está de madrugada")
+
+elif horario < 6 or horario < 11.59:
+  print("Bom dia")
+
+elif horario == 12:
+  print("está na hora do almoço")
+
+elif horario < 13 or horario < 17.59:
+  print("Boa tarde!")
+
+elif horario < 18 or horario < 21.59:
+  print("Boa noite!")
+
+elif horario < 22 or horario < 23.59:
+  print("Está na hora de dormir!")
