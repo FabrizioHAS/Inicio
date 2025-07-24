@@ -1,0 +1,11 @@
+#Variavel pao
+pao = float(10.00)
+
+print(f"O valor do pão é R${pao}")
+
+dinheiro = float(input("Quanto dinheiro você tem? "))
+
+if dinheiro >= pao:
+    print(f"Você pode comprar", dinheiro / pao, "pães")
+else:
+    print("Você não tem dinheiro suficiente")
